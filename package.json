@@ -1,0 +1,39 @@
+{
+  "name": "human-resources",
+  "version": "1.0.0",
+  "description": "Human Resources",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSebas21/human-resources-NodeJS.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "nodejs",
+    "jwt",
+    "mysql",
+    "human",
+    "resources",
+    "system"
+  ],
+  "author": "Sebastian Manzo, Dafne Ruiz y Roberto Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iSebas21/human-resources-NodeJS.git/issues"
+  },
+  "homepage": "https://github.com/iSebas21/human-resources-NodeJS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  }
+}

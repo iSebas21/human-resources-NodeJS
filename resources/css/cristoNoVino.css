@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgba(0, 0, 0, 0.884);
+    color: #fff;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.derecha{
+    position: relative;
+    background:rgba(33, 15, 116, 0.678);
+    width: 30vw;
+    height: 100vh;
+    text-align: center;
+    border-right: 3px solid rgba(255, 255, 255, 0.089);
+}
+.izquierda>h1{
+    font-weight: lighter;
+}
+.derecha>svg,h1,.inputs,.buttons,.inputs-add{
+    position: relative;
+    top: 30vh;
+}
+.izquierda{
+    width: 70vw;
+    height: 100vh;
+    text-align: center;
+}
+.inputs,.inputs-add{
+    width: 15rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.349);
+}
+.inputs{
+    border-right: 2px solid rgba(255, 255, 255, 0.349);
+}
+input{
+    background: none;
+    outline: none;
+    border: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-emphasis: none;
+    text-decoration: none;
+}
+.buttons>button{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 6rem;
+    background: rgb(97, 5, 168);
+    border-radius:15px ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: ease-out .5s;
+}
+.buttons>button:hover{
+    background: rgb(5, 62, 168);
+    letter-spacing: 3pt;
+}

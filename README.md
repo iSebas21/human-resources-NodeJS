@@ -1,2 +1,5 @@
-# human-resources-NodeJS
-A program designed to be used by the human resouces department
+# Human Resources NodeJS 
+##Contributors 
+###Roberto Cruz Lozano 
+###Sebastian Manzo Iniestra 
+###Dafne Ruiz
